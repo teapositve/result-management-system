@@ -1,0 +1,42 @@
+<nav class="navbar navbar-light bg-primary">
+    <div class="container-fluid">
+        <h2 style="color: white; margin-left: 33%;">Result Management System</h2>
+    </div>
+</nav>
+
+<div class="d-flex">
+    <button style="margin-top: 10px;" routerLink="/teacher-login" class="btn bg-primary text-white mx-3">Back</button>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Teacher Signup</h1>
+                    <hr>
+                </div>
+
+                <!-- Form Creation -->
+                <form [formGroup]="teacherSignupForm" (ngSubmit)="teacherSignup()">
+                    <div class="mb-3">
+                        <label class="form-label">Email address</label>
+                        <input formControlName="email" type="email" class="form-control" placeholder="Enter Email address" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Mobile</label>
+                        <input formControlName="mobile" type="email" class="form-control" placeholder="Enter Mobile No" id="exampleInputMobile" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input formControlName="password" type="password" class="form-control" placeholder="Enter Password" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn bg-primary text-white">Signup</button>
+                </form>
+                <a style="color: #009688!important; margin-top: 10px;" routerLink="/teacher-login">Already Signup ? Click to Login !</a>
+            </div>
+        </div>
+    </div>
+</div>

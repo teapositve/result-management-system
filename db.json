@@ -1,0 +1,85 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "rollno": "102",
+      "name": "Swapnil Kesarwani",
+      "dob": "1995-04-04",
+      "score": "90"
+    },
+    {
+      "id": 4,
+      "rollno": "103",
+      "name": "Anushka Kesarwani",
+      "dob": "2004-06-11",
+      "score": "88"
+    }
+  ],
+  "teacher-signup": [
+    {
+      "name": "",
+      "email": "snehilgupta@gmail.com",
+      "mobile": "1234567890",
+      "password": "qwertyuiop",
+      "id": 1
+    },
+    {
+      "email": "snehilgupta@gmail.com",
+      "mobile": "123456789",
+      "password": "qwertyuiop",
+      "id": 2
+    },
+    {
+      "email": "snehilgupta@gmail.com",
+      "mobile": "7309626074",
+      "password": "qwerty",
+      "id": 3
+    },
+    {
+      "email": "snehilgupta1997@gmail.com",
+      "mobile": "9569414712",
+      "password": "1123456",
+      "id": 4
+    },
+    {
+      "email": "babitakesarwani1870@gmail.com",
+      "mobile": "9335193300",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "email": "",
+      "mobile": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "email": "babitakesarwani1870@gmail.com",
+      "mobile": "7309626074",
+      "password": "12345",
+      "id": 7
+    },
+    {
+      "email": "ravi@gmail.com",
+      "mobile": "1234567890",
+      "password": "123",
+      "id": 8
+    },
+    {
+      "email": "ruchikesarwani00@gmail.com",
+      "mobile": "0123456789",
+      "password": "qwerty",
+      "id": 9
+    },
+    {
+      "email": "snehil.gupta@nagarro.com",
+      "mobile": "23456",
+      "password": "qwer",
+      "id": 10
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

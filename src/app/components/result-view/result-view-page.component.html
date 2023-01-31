@@ -1,0 +1,35 @@
+<nav class="navbar navbar-light bg-primary">
+    <div class="container-fluid">
+        <h2 style="color: white; margin-left: 33%;">Result Management System</h2>
+        <div class="d-flex">
+            <button routerLink="/home" class="btn btn-danger mx-3">Logout</button>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="text-align-center">
+        <h2 style="margin-top: 25px;">Result</h2>
+        <hr>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td>Roll No. : </td>
+                    <td> {{data.rollno}} </td>
+                </tr>
+                <tr>
+                    <td>Name : </td>
+                    <td> {{data.name}} </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth : </td>
+                    <td> {{data.dob}} </td>
+                </tr>
+                <tr>
+                    <td>Score : </td>
+                    <td> {{data.score}} </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
